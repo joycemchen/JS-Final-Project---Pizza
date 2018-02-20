@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>TAP</title>
+		<link rel="icon" type="image/png" href=".\Users\Student\Desktop\PizzaProject\images\PizzaSlice.png">
+		<link rel="stylesheet" href="C:\Users\Student\Desktop\PizzaProject\css\JSPizza.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
+	
+	
+		<body class="background">
+	
+	<!-- NAV/HEADER -->
+		<nav class="navbar navbar-inverse bg-inverse text-white">
+			<a class="navbar-brand" href="#">
+				<a class="navbar1">
+				<img src="C:\Users\Student\Desktop\PizzaProject\images\PizzaSlice.png" width="100" height="100" class="d-inline-block align-top" alt="">
+				<b>TECH ACADEMY PIZZA</b> 
+				<img src="C:\Users\Student\Desktop\PizzaProject\images\PizzaSlice.png" width="100" height="100" class="d-inline-block align-top" alt="">
+				<h3>Hand-crafted by pizza engineers</h3>
+				<h4>Delicious and bug-free, guaranteed!</h4>
+				</a>
+			</a>
+		</nav>
+	<!-- / NAV/HEADER -->
+	
+	
+	<!--  ORDERING -->
+
+	<form id="frmMenu">
+		<div id="accordion" role="tablist" " aria-multiselectable="true">
+			<div class="w-25 p-3 menu">
+				<div class="card bg-inverse text-white">
+					<div class="card-header bg-warning text-white menu1"  role="tab" id="headingOne">
+						<h4 class="mb-0">
+							<a class="accordion-toggle text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+							SIZE
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+						<div class="card-block">
+							<input class="size" type="radio" name="Size" value="Personal Pizza"checked> Personal - $6.00<br>
+							<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium - $12.00<br>
+							<input class="size" type="radio" name="Size" value="Large Pizza" > Large - $14.00<br>
+							<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large - $16.00<br>
+						</div>
+					</div>
+					<div class="card bg-inverse text-white">
+					<div class="card-header bg-warning text-white menu1"  role="tab" id="headingTwo">
+						<h4 class="mb-0">
+							<a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							CRUST
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="card-block">
+							<input class="crust" type="radio" name="Crust" value="Plain Crust" checked> Plain Crust<br>
+								<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+								<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust (Add $3)<br>
+								<input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+								<input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br>
+						</div>
+					</div>
+					</div>
+					<div class="card bg-inverse text-white">
+					<div class="card-header bg-warning text-white menu1"  role="tab" id="headingThree">
+						<h4 class="mb-0">
+							<a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							SAUCE
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div class="card-block">
+							<input class="sauce" type="radio" name="Sauce" value="Marinara sauce" checked> Marinara sauce<br>
+								<input class="sauce" type="radio" name="Sauce" value="White sauce"> White sauce<br>
+								<input class="sauce" type="radio" name="Sauce" value="Barbeque sauce"> Barbeque sauce<br>
+								<input class="sauce" type="radio" name="Sauce" value="No sauce"> No sauce<br>
+						</div>
+					</div>
+					</div>
+					<div class="card bg-inverse text-white">
+						<div class="card-header bg-warning text-white menu1"  role="tab" id="headingFour">
+							<h4 class="mb-0">
+								<a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								CHEESE
+								</a>
+							</h4>
+						</div>
+						<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+							<div class="card-block">
+								<input class="cheese" type="radio" name="Cheese" value="Regular cheese" checked> Regular cheese<br>
+								<input class="cheese" type="radio" name="Cheese" value="No cheese"> No cheese<br>
+								<input class="cheese" type="radio" name="Cheese" value="Extra cheese"> Extra cheese (Add $3)<br>
+							</div>
+						</div>
+					</div>
+					<div class="card bg-inverse text-white">
+						<div class="card-header bg-warning text-white menu1"  role="tab" id="headingFive">
+							<h4 class="mb-0">
+								<a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								MEATS
+								</a>
+							</h4>
+						</div>
+						<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+							<div class="card-block">
+							<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+							<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+							<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+							<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+							<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+							<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+							<p class="menu_footer">First meat topping is complimentary <br>*Add $1.00 for each additional meat</br></p>
+							</div>
+						</div>
+					</div>
+					<div class="card bg-inverse text-white">
+						<div class="card-header bg-warning text-white menu1"  role="tab" id="headingSix">
+							<h4 class="mb-0">
+								<a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								VEGGIES
+								</a>
+							</h4>
+						</div>
+						<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+							<div class="card-block">
+							<input class="veggies" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes<br>
+							<input class="veggies" type="checkbox" name="Veggie" value="Onions"> Onions <br>
+							<input class="veggies" type="checkbox" name="Veggie" value="Olives"> Olives<br> 
+							<input class="veggies" type="checkbox" name="Veggie" value="Green Peppers"> Green Peppers<br>
+							<input class="veggies" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms<br>
+							<input class="veggies" type="checkbox" name="Veggie" value="Pineapple"> Pineapple<br>
+							<input class="veggies" type="checkbox" name="Veggie" value="Spinach"> Spinach<br>
+							<input class="veggies" type="checkbox" name="Veggie" value="Jalapeno"> Jalapeno<br>
+							<p class="menu_footer">First veggie topping complimentary <br>*Add $1.00 for each additional veggie</br></p>
+							</div>
+						</div>
+					</div>
+			</div>
+		
+		</div>
+		</div>
+		</form>
+		<!-- / ORDERING -->
+		
+		<!-- BUTTONS -->
+		<div class="w-50 p-3 menu">
+			<button type="button" class="btn-danger btn-lg btn-block" onclick="getReceipt()">PLACE ORDER</button>
+			<button type="button" class="btn-outline-warning btn-lg btn-block" onclick="clearAll()">CANCEL</button>
+		</div>
+		<!-- / BUTTONS -->
+		
+		<!-- CART -->
+		<div class="bg-inverse text-white cart w-50 p-3 menu" id="cart">
+			<div id="title1"><h3>You Ordered:</h3></div>
+			<div id="title2"><h3>Subtotal:</h3></div>
+			<div id="showText1"></div>
+			<div id="showText2"></div>
+			<div id="totalPrice1"><h3>Total Price:</h3></div>
+			<div id="totalPrice2"></div>
+		</div>
+		<script src="C:\Users\Student\Desktop\PizzaProject\js\PizzaJS.js"></script>
+		<!-- /CART -->
+	
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	
+	</body>
+</html>
